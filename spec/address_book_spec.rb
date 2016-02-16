@@ -98,7 +98,7 @@ end
     it "imports the correct number of entries_2.csv" do
       book.import_from_csv("entries_2.csv")
       book_size = book.entries.size
-      expect(book.entries.size).to eq 3
+      expect(book_size).to eq 3
     end
 
     it "imports the 1st entry" do
