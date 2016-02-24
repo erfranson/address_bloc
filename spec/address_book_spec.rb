@@ -104,7 +104,7 @@ end
     it "imports the 1st entry" do
        book.import_from_csv("entries_2.csv")
        entry_one = book.entries[0]
-       check_entry(entry_one, "Nancy", "555-555-2656", "nancy@blocmail.com")
+       check_entry(entry_one, "Adam", "555-555-2656", "adam@blocmail.com")
      end
 
      it "imports the 2nd entry" do
